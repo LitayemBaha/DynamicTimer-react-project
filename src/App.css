@@ -1,0 +1,47 @@
+#root{
+display:flex;
+justify-content: center;
+margin:10% 50%;
+}
+.body{
+display:flex;
+justify-content: center;
+flex-flow: row wrap;
+width:250px;
+}
+.part
+{
+  padding:5px;
+}
+.number{
+  font-size: 40px;
+
+}
+.title{
+color: gray;
+padding-left: 5px;
+}
+.commande{
+  width:250px;
+  display: flex;
+  justify-content: space-between;
+}
+.startbtn{
+  padding: 10px 30px;;
+  font-size: 15px;
+  border-radius: 5px;
+  color:rgb(5, 107, 151);
+  background-color: white;
+  border:solid rgb(5, 107, 151) 2px;
+  cursor: pointer;
+}
+.resetbtn{
+  padding: 10px 30px;;
+  font-size: 15px;
+  border-radius: 5px;
+  color:black;
+  background-color: white;
+  border:solid black 2px;
+  cursor: pointer;
+
+}
